@@ -1,0 +1,40 @@
+body {
+    font-family: "Libra Baskerville", serif;
+    color: darkblue;
+}
+
+h1 {
+    color: whitesmoke;
+    background-color: gray;
+}
+
+h2 {
+    color: whitesmoke;
+    background-color: gray;
+}
+
+h3 {
+    color: whitesmoke;
+    background-color: gray;
+}
+
+img {
+    height: 200px;
+    text-align: left;
+}
+
+figcaption span {
+    font-size: .85em;
+}
+
+p#product-descriotion {
+    margin: 250px 0 250px;
+    text-align: justify;
+}
+
+div.review {
+    padding: 10px;
+    color: whitesmoke;
+    background-color: gray;
+    margin: 20px 0 20px 0;
+}
