@@ -8,11 +8,11 @@ body {
 header {
     background-color: antiquewhite;
     color:darkslateblue;
-    text-align: center;
+    text-align: left;
+    font-weight: 800;
     width: 90%;
     margin: 0 auto;
-
-
+    text-indent: 1em;
 }
 
 main {
@@ -52,5 +52,13 @@ footer {
     width: 90%;
     margin: 0 auto;
 }
+
+.photoBlock img {
+    width: 0 600;
+    height: 300px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 
 
