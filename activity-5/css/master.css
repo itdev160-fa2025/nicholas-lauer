@@ -1,0 +1,56 @@
+body {
+    font-family: "Libra Baskerville", serif;
+    color: blanchedalmond;
+    background-color: darkslategrey;
+    margin: 0%;
+}
+
+header {
+    background-color: antiquewhite;
+    color:darkslateblue;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+
+
+}
+
+main {
+
+    width: 90%;
+    margin: 0 auto;
+    background-color:teal;
+}
+
+section {
+    padding: 1em;
+}
+
+h1 {
+    padding-top: 1%;
+    color: whitesmoke;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    color: whitesmoke;
+    background-color: palevioletred;
+}
+
+h3 {
+    color: whitesmoke;
+    background-color: palevioletred;
+}
+
+
+footer {
+    background-color: palevioletred;
+    color: antiquewhite;
+    height: 2em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
