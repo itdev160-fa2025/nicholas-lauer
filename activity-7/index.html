@@ -2,12 +2,12 @@
 <html lang="en">
 
     <head>
-        <title>Assignment 6: Making Decisions</title>
+        <title>Assignment 7: To-Do List</title>
         <meta charset="UTF-8">
         <meta name="keywords" content="media, video, mp3, mp4 movies, music">
         <meta name="description" content="working with media in HTML5">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
@@ -15,16 +15,22 @@
 
     <body>
         <header>
-            <h1><b>Welcome to Activity 6!</b></h1>
+            <h1><b>To-Do List</b></h1>
         </header>
         <main>
-            <section id="message-container" class="messages"></section>
-            <section>
-                <input type="text" id="message-input">
-                <button type="button" id="send-button">Send</button>
-                <button type="button" id="reply-button">Reply</button>
+            <section id="input-container">
+                <p><b>Enter Task:     &nbsp;</b><input type="text" id="input-task">
+                <button type="button" id="add-task">Add</button>
+            </p>
             </section>
+            <section id="todo-list-container">
+                <ol id="active-list">
 
+                </ol>
+                <ul id="completed-list">
+
+                </ul>
+            </section>
         </main>
         <footer>
             <p>Copyright &copy; Nicholas Lauer.2024</p>

@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    }
+body {
+    background-color: darkorchid;
+    width: 80% auto;
+    text-align: center;
+}
+
+h1 {
+    color: antiquewhite;
+    text-decoration: underline;
+    height: 2em;
+    line-height: 2em;
+    border: 2px solid;
+    margin: 1%;
+    background-color: indigo;
+}
+
+#input-container {
+    color: antiquewhite;
+    border: 1px solid;
+    padding: 1em;
+    margin: 1%;
+    text-align: left;
+}
+ul {
+    margin: 0;
+}
+
+li {
+    padding: 1em;
+}
+
+#todo-list-container {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1%;
+    color: antiquewhite;
+    text-align: left;
+    line-height: normal;
+}
+
+#completed-list {
+    list-style-type: none;
+
+}
+
+#completed-list li {
+    text-decoration: line-through;
+    color:magenta;
+}
+
+footer {
+    text-align: left;
+    margin-left: 1.5%;
+    color:slategrey;
+}
